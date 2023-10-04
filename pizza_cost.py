@@ -9,7 +9,7 @@ import constants
 
 def main():
     # get the diameter from user
-    diameter = int(input("Enter the diameter of the pizza (inches): "))
+    diameter = float(input("Enter the diameter of the pizza (inches): "))
 
     # create variables
     subtotal = (
